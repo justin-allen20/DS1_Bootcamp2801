@@ -1,0 +1,9 @@
+% expression =sum(Fields!Number.Value)/sum(Fields!Number.Value, "DataSet1")
+
+Filter at dataset
+
+Table filter
+=IIf(Not(Fields!PtLastName.Value Like "TEST*"), 0, 1)
+
+
+(Fields!PtLastName.Value Like "TEST*"), 0, 1)
